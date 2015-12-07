@@ -2,9 +2,9 @@
 
 ## 題目
 
-種類：Miscellaneous
+種類： Miscellaneous
 
-分數：10 分
+分數： 10 分
 
 敘述：
 > The contents of the flash drive appear to be password protected. On the back of the flash drive, you see the hexadecimal number 0x38a4869b scribbled in ink. The password prompt, however, only accepts decimal numbers. What number should you enter? (Press the Hint button for advice on solving the challenge)
@@ -16,7 +16,7 @@
 
 題目給了一段十六進位數字：`0x38a4869b`
 
-很明顯地，就是要把這段數字轉成十進位。網路上隨便搜尋一下都可以找到一大堆十六進位轉換器，這邊我直接打開 python 的互動式介面：
+很明顯地，就是要把這段數字轉成十進位。網路上隨便搜尋一下都可以找到一大堆十六進位轉換器，這邊我直接打開 python 的互動式介面進行轉換：
 
 ```
 Python 2.7.10 (default, Jul 14 2015, 19:46:27)
@@ -26,4 +26,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 950306459
 ```
 
-即得到 flag 為 `950306459`
+在 Python 的介面中輸入一組十六進位數字，他會直接將這組數字以十進位的方式顯示出來，因此可以得到 flag 為 `950306459`。
